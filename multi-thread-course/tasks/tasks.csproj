@@ -40,6 +40,11 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="ApmEap.cs" />
+        <Compile Include="ExceptionExamples.cs" />
+        <Compile Include="IOExamples.cs" />
+        <Compile Include="MethodExamples.cs" />
+        <Compile Include="NestedChildTaskExamples.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
