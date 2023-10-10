@@ -8,5 +8,16 @@ There is a [Link](https://www.udemy.com/course/parallel-csharp/learn/lecture/111
 - The relation of thread and a very old COM technology.
 - What is a thread pool and how to use thread pool threads?
 - Two types of thread pool threads: workers and I/O.
-- I/O-bound operations in detail.
-- APM (Asynchronous programming model) and EAP (event-based asynchronous patterns). 
+- I/O-bound operations in [detail](https://blog.stephencleary.com/2013/11/there-is-no-thread.html).
+
+## Project <b>tasks</b>: Tasks
+There is a [Link](https://www.udemy.com/course/parallel-csharp/learn/lecture/11126260) to the course.
+- How to create a task.
+- States of a task.
+- Canceling tasks.
+- Chaining tasks.
+- Waiting for tasks.
+- Creating an I/O-bound task.
+- Handling exceptions.
+- Nested and Child tasks.
+- Using TaskCompletionSource.
