@@ -21,3 +21,9 @@ There is a [Link](https://www.udemy.com/course/parallel-csharp/learn/lecture/111
 - Handling exceptions.
 - Nested and Child tasks.
 - Using TaskCompletionSource.
+
+## Project <b>async_await</b>: Async & Await
+There is a [Link](https://www.udemy.com/course/parallel-csharp/learn/lecture/11126304) to the course.
+- What is async & await.
+- How to use async & await.
+- How to handle exceptions with async & await
