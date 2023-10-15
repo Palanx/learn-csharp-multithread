@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace concurrent_collections
 {
+    /// <summary>
+    /// Bounded Capacity: You can set a maximum limit to the number of items the collection
+    /// can hold.
+    /// Blocking on Add and Take: If you try to Take an item from an empty collection,
+    /// the call will block until there's an item available. If you try to Add an item
+    /// to a full collection (when you've set a bounded capacity), the call will block
+    /// until there's space available.
+    /// </summary>
     public class ProducerConsumerExample
     {
         private readonly BlockingCollection<string> _cutleryToWash =
@@ -61,6 +69,11 @@ namespace concurrent_collections
                 Console.WriteLine($"+ {nextCutlery}");
                 Thread.Sleep(500);
             }
+            /*
+             * We have a consumer task that keeps taking items. It will block if there's no item
+             * to take until the producer adds an item or completes adding
+             * (_cutleryToWash.CompleteAdding();).
+             */
         }
 
         // Consumer

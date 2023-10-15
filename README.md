@@ -52,3 +52,18 @@ There is a [Link](https://www.udemy.com/course/parallel-csharp/learn/lecture/111
 - The difference between SpinLock and SpinWait.
 - How SpinWait and SpinLocl work and when to use them.
 - Implement our awn synchronization primitive.
+
+## Project <b>concurrent_collections</b>: Concurrent Collections
+There is a [Link](https://www.udemy.com/course/parallel-csharp/learn/lecture/11165408) to the course.
+- Implementing an immutable stack.
+- ImmutableStack, ImmutableQueue, ImmutableList, ImmutableSet, and ImmutableDictionary.
+- Performance characteristics of immutable collections.
+- Using builders of immutable collections.
+- ConcurrentStack, ConcurrentQueue, ConcurrentBag and ConcurrentDictionary.
+- BlockingCollection and Produce/Cosnume.
+
+## Project <b>parallel_programming</b>: Parallel Programming
+There is a [Link](https://www.udemy.com/course/parallel-csharp/learn/lecture/11165448) to the course.
+- How to use Parallel cass calling For, Foreach and Invoke.
+- How to use PLINQ to rin LINQ queries in parallel.
+- How to cancel units of work shich run in parallel by PLINQ or Parallel.
